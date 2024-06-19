@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body{    
+        margin: 0;
+        padding: 0;
+        background: url(fondo1.jpg);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+    }
+.form-content{
+    display: flex;
+    box-shadow: 0 0 100px #676868;
+    border-radius: 25px;
+    width: 700px;
+}
+
+form{
+    width: 900px;
+    padding: 50px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+form h2{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.input-container{
+    position: relative;
+}
+.input-container > i {
+    color: #676868;
+    position: absolute;
+    font-size: 25px;
+    top: 15px;
+    left: 80px;
+}
+.input-container > input {
+    padding: 20px 5px 20px 100px;
+    width: 45%;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid #676868;
+    box-shadow: 0 0 20px rgba(45, 46, 46, 0.4);
+    outline: none;
+    color: #232424;
+}
+::placeholder{
+    color: #232424;
+}
+form a{
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.welcome{
+    width: 50%;
+    text-align: center;
+    border-radius: 0 25px 25px 0;
+    padding: 25px;
+    background: linear-gradient(
+        180deg,
+        rgb(85, 85, 86)25%,
+        rgb(21, 21, 21)93%
+    );
+}
+.welcome h2{
+    margin: 100px 0 25px 0;
+    color: #ffffff;
+    font-size: 40px;
+}
+.welcome p{
+    font-size: 18px;
+    color: #F8F8F8;
+}
+.btn{
+    padding: 17px 80px;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0 0 20px rgba(45, 46, 46, 0.5);
+    background: linear-gradient(
+        180deg,
+        rgb(85, 85, 86)25%,
+        rgb(21, 21, 21)93%
+    );
+    border-radius: 20px;
+}
+@media(max-width: 991px){
+    body{
+        padding: 30px;
+    }
+    .form-content{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+    .welcome{
+        display: none;
+    }
+}

@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+h1{
+font-family:Tahoma;
+color:white;
+font-size:45px;
+}
+h2{
+font-family:"Arial Narrow";
+color:white;
+font-size:35px;
+}
+h3{
+font-family:"Arial Narrow";
+color:white;
+font-size:25px;
+}
+p{
+font-family:Arial;
+color:white;
+font-size:20px;
+}
+ul{
+font-family:Arial;
+color:#ffffffbe;
+font-size:25px;
+} 
+.peru{
+    float: right;
+    padding-right: 350px;
+}
+.arrozchau{
+    float: right;
+    padding-right: 350px;
+}
+.causa2{
+    float: right;
+    padding-right: 350px;
+}
+.takuku{
+    float: right;
+    padding-right: 350px;
+}
+.lomo{
+    float: right;
+    padding-right: 150px;
+}
+.caldodegallina{
+    float: right;
+    padding-right: 350px;
+}
+img{
+    border-radius: 25%;
+}
+.pag{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(209, 211, 211);
+    background: linear-gradient(
+        180deg,
+        rgb(8, 8, 8)25%,
+        rgb(44, 44, 44)93%
+    );
+}
+.pag:hover{
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.rec{
+    display: block;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(83, 83, 83);
+    border-radius: 25px;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(209, 211, 211);
+    background: linear-gradient(
+        180deg,
+        rgb(8, 8, 8)25%,
+        rgb(44, 44, 44)93%
+    );
+}
+.rec:hover{
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.arroz{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(36, 36, 36);
+    border-radius: 25px;
+    padding: 15px 30px; 
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(42, 106, 119);
+    background: linear-gradient(
+        180deg,
+        rgb(21, 59, 66)25%,
+        rgb(0, 0, 0)93%
+    );
+}
+.arroz:hover{
+    background-color: transparent;
+    border: 2px solid rgb(4, 4, 4);
+    color: rgb(255, 255, 255);
+}
+.causa{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(36, 36, 36);
+    border-radius: 25px;
+    padding: 15px 30px; 
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(42, 106, 119);
+    background: linear-gradient(
+        180deg,
+        rgb(21, 59, 66)25%,
+        rgb(0, 0, 0)93%
+    );
+}
+.causa:hover{
+    background-color: transparent;
+    border: 2px solid rgb(4, 4, 4);
+    color: rgb(255, 255, 255);
+}
+.tacu{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(36, 36, 36);
+    border-radius: 25px;
+    padding: 15px 30px; 
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(42, 106, 119);
+    background: linear-gradient(
+        180deg,
+        rgb(21, 59, 66)25%,
+        rgb(0, 0, 0)93%
+    );
+}
+.tacu:hover{
+    background-color: transparent;
+    border: 2px solid rgb(4, 4, 4);
+    color: rgb(255, 255, 255);
+}
+.lomos{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(36, 36, 36);
+    border-radius: 25px;
+    padding: 15px 30px; 
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(42, 106, 119);
+    background: linear-gradient(
+        180deg,
+        rgb(21, 59, 66)25%,
+        rgb(0, 0, 0)93%
+    );
+}
+.lomos:hover{
+    background-color: transparent;
+    border: 2px solid rgb(4, 4, 4);
+    color: rgb(255, 255, 255);
+}
+.caldo{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(36, 36, 36);
+    border-radius: 25px;
+    padding: 15px 30px; 
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(42, 106, 119);
+    background: linear-gradient(
+        180deg,
+        rgb(21, 59, 66)25%,
+        rgb(0, 0, 0)93%
+    );
+}
+.caldo:hover{
+    background-color: transparent;
+    border: 2px solid rgb(4, 4, 4);
+    color: rgb(255, 255, 255);
+}
